@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Selfie</title>
+    <link href="stylesheet" src="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <script src="main.js"></script>
+    
+
+<section class="con">
+   
+    <div class="container">
+        <center>
+           
+            <h1>Voice Selfie App 
+    
+            </h1>
+            <hr>
+            <h4 style="color:greenyellow;">Please press allow as soon as popup comes. After you give a voice command</h4>
+            
+            <div class="form-group">
+                <h3>Say "take my selfie"</h3>
+                <label>Your voice output : </label>
+    <textarea class="form-control" id="textbox" readonly="true" caret-color="red"></textarea>
+            </div>
+    
+            <p>Press the Start button</p>
+            <button  onclick="start()" class="btn btn-primary">Start</button>
+            <br>
+    
+            <label>Your webcam : </label>
+    <div id="camera" style="border-radius: 5px;border-color: black;"></div>
+            <br>
+    
+            <label>Your selife Will Display Here: </label>
+    <div id="result"></div>
+        </center>
+        </div>
+       </section>
+</body>
+</html>
